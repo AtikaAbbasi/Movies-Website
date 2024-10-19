@@ -1,0 +1,393 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+.bnttn1:hover{
+    border: 2px solid white;
+}
+
+.text{
+    text-shadow:0 0 20px #00fffb, 0 0 40px #0081bc
+}
+
+.green{
+    color: rgb(129, 209, 199);
+}
+
+.navbar{
+    /* background-color: rgb(118, 118, 118); */
+    backdrop-filter: blur(30px);
+    position: fixed;
+    top: 0;
+   right: 0;
+    left: 0;
+    font-size: 1.3em;
+    z-index: 50;
+    font-weight: bold;
+    border-radius: 0 0 7px 7px;
+    color: white;
+}
+
+.abc:hover{
+    border-bottom: 3px solid white;
+}
+
+.bgmain{
+    background-image: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D3429E72F594CA84B8448FE5F8BDE1773505217A9541297CB1E85719EC8D686C/scale?width=1200&aspectRatio=1.78&format=webp);
+padding-bottom: 36em;
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 0 0 15px 15px ;
+ margin-top: 3.5em;
+
+}
+
+
+
+.font{
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+.buttndiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 1.3em;
+    justify-content: center;
+  
+}
+
+.green2:hover{
+    background-color: rgb(84, 161, 152);
+}
+
+.childtwo{
+    height: 377px;
+    width: 233px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/e/ea/Raya_and_the_Last_Dragon.png);
+}
+
+.fixx{
+    transition: 0.5s ease-in-out; 
+}
+.fixx:hover{
+transform: translateY(20px);
+}
+
+.BUTN01{
+    width: 170px;
+    background-color: red;
+}
+
+.lin:hover{
+    background-color: red;  
+} 
+
+
+.BUTN011{
+    width: 170px;
+    background-color: rgba(255, 0, 0, 0.116);
+    color: white;
+}
+
+
+
+.child{
+    height: 377px;
+    width: 233px;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/movie_poster_zootopia_866a1bf2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+    /* transition: 300ms; */
+    
+    
+
+}
+
+.divchild1{
+    opacity: 0;
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    margin-top: 20em;
+}
+
+.child:hover .divchild1{
+opacity: 1;
+}
+
+
+
+/* .divchild1{
+    opacity: 0;
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    margin-top: 20em;
+} */
+
+.childtwo:hover .divchild1{
+opacity: 1;
+}
+
+
+.childthree:hover .divchild1{
+    opacity: 1;
+    }
+
+    .childfour:hover .divchild1{
+        opacity: 1;
+        }
+
+        .back01:hover .divchild1{
+            opacity: 1;
+            }
+
+          .back02:hover .divchild1{
+             opacity: 1;
+             }
+
+             .back03:hover .divchild1{
+                opacity: 1;
+                }
+
+
+                .back04:hover .divchild1{
+                    opacity: 1;
+                    }
+
+
+                    .back1:hover .divchild1{
+                        opacity: 1;
+                        }
+
+                        .back2:hover .divchild1{
+                            opacity: 1;
+                            }
+
+
+                     .back3:hover .divchild1{
+                           opacity: 1;
+                          }
+
+                          .back4:hover .divchild1{
+                            opacity: 1;
+                           }
+
+                         
+
+                           
+
+
+                        
+.color{
+    color: yellow;
+}
+/* .stardiv{
+    display: ;
+} */
+
+.child:hover{
+    transform: translateY(20px);
+}
+
+
+
+.childthree{
+    height: 377px;
+    width: 233px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZWUxZTJhY2EtNTBiNy00MjlkLTgxMDctYmEzODQ3N2IzYTQ1XkEyXkFqcGc@._V1_.jpg);
+}
+
+
+.childfour{
+    height: 377px;
+    width: 233px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/p_encanto_homeent_22359_4892ae1c.jpeg?region=0%2C0%2C540%2C810);
+}
+
+.back01{
+  
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMjI4MzU5NTExNF5BMl5BanBnXkFtZTgwNzY1MTEwMDI@._V1_FMjpg_UX1000_.jpg);
+} 
+
+
+.back02{
+   
+    background-image: url(https://m.media-amazon.com/images/I/81K-KlDulqL._AC_UF1000,1000_QL80_.jpg);
+} 
+
+
+
+.back03{
+  
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/p_thelionking_19752_1_0b9de87b.jpeg?region=0%2C0%2C540%2C810);
+} 
+
+.fa{
+    font-size: 1.5em;
+}
+
+.fa2{
+    font-size: 2em; 
+    margin-right: 0.3em;
+}
+
+.fa2:hover{
+    color: red;
+}
+
+
+.back04 {
+  
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/au_pixar_luca_movie_poster_9880530d.jpeg?region=0%2C0%2C540%2C810);
+} 
+ 
+.back1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/a/a8/Tangled_poster.jpg);
+} 
+
+ 
+.back2{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMDIyM2E2NTAtMzlhNy00ZGUxLWI1NjgtZDY5MzhiMDc5NGU3XkEyXkFqcGc@._V1_.jpg);
+} 
+
+
+.back3{
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/p_bambi_19754_990e0e5a.jpeg);
+} 
+
+.back4{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMmE2MTM2NjItMTRjNy00MGIzLWJjMzAtMzE3MTUzY2Q0NmIxXkEyXkFqcGc@._V1_.jpg);
+} 
+
+
+.butn2{
+    width: 233px;
+    font-family: "Afacad Flux", sans-serif;
+   height: 45px;
+   background-color: red;
+   border-radius: 13px;
+   border: none;
+}
+
+.back0404{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/7/73/Moana_2_poster.jpg);
+}
+
+.back0101{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO3wZ7gIrFwn6ikeRBxprglqNNn8w0aRKV_qNk1botea9A33LPK_qZyiSc9xIhRNf_wHs&usqp=CAU);
+}
+
+
+.back0202{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BYmM2MGMxYTctYjc3My00NGVjLTg5YjUtYzlhMDZkNjY4YWQyXkEyXkFqcGc@._V1_.jpg);
+}
+
+.back0303{
+    background-image: url(https://static0.srcdn.com/wordpress/wp-content/uploads/2023/02/zootopia-2-temp-poster.jpg);
+}
+
+.sides2{
+    /* display: flex;
+    flex-wrap: wrap; */
+    background-color: rgb(181, 181, 181);
+    padding-bottom: 3em;
+    border-radius: 12px 12px 0 0;
+    color: black;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.para{
+    color: red;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    
+}
+
+.iconbox{
+   display: flex;
+   justify-content: center;
+   gap: 2em;
+   margin-top: 2em;
+}
+
+.icon01{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+
+}
+
+.icon01:hover{
+background-color: red;
+}
+
+.blue:hover{
+    background-color: #0081bc;
+}
+
+.blue1:hover{
+    background-color: #1e61a8;
+}
+
+
+.pink:hover{
+background-color: palevioletred;
+}
+
+
+/* .heading{
+    color: black;
+} */
+
+.heading:hover{
+color: red;
+}
+
+
+
+/* medai qureise */
+
+@media(max-width:990px){
+    .abc:hover{
+        width: 84px;
+    }
+}
