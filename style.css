@@ -110,6 +110,35 @@ transform: translateY(20px);
 }
 
 
+.div101{
+    display: flex;
+}
+
+.homdiv{
+    background-image: url(https://wallpapers.com/images/hd/raya-and-the-last-dragon-characters-island-44byf8duuexgzfpv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10em;
+    margin-top: 2em;
+    border-radius: 15px;
+   
+}
+
+.clas{
+    padding-top: 2em;
+    padding-left: 2em;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+
+.str{
+    display: flex;
+    margin-left: 6em;
+}
+
+
+
+
 
 .child{
     height: 377px;
@@ -123,6 +152,10 @@ transform: translateY(20px);
     
     
 
+}
+
+.coll{
+    color: rgba(255, 255, 255, 0.37);
 }
 
 .divchild1{
@@ -139,13 +172,6 @@ opacity: 1;
 
 
 
-/* .divchild1{
-    opacity: 0;
-    display: flex;
-    gap: 0.5em;
-    justify-content: center;
-    margin-top: 20em;
-} */
 
 .childtwo:hover .divchild1{
 opacity: 1;
@@ -290,12 +316,16 @@ opacity: 1;
 
 
 .butn2{
-    width: 233px;
+    width: 200px;
     font-family: "Afacad Flux", sans-serif;
-   height: 45px;
-   background-color: red;
-   border-radius: 13px;
+   height: 43px;
+   background-color: #1e61a8;
+   border-radius: 10px;
    border: none;
+}
+
+.butn2:hover{
+    background-color: red;
 }
 
 .back0404{
@@ -336,6 +366,10 @@ opacity: 1;
     justify-content: center;
     gap: 2em;
     
+}
+
+.chang012{
+    background-image: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5CC71381475B1D6B746FD14DF999893D27ACB8CCDE009674894AABF60F667854/scale?width=1200&aspectRatio=1.78&format=webp);
 }
 
 .iconbox{
@@ -392,3 +426,10 @@ color: red;
         width: 84px;
     }
 }
+
+@media(max-width:700px){
+.mix{
+    text-align: center;
+}
+}
+
